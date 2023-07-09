@@ -9,7 +9,7 @@ ___
 - [GitHub](https://github.com/AlIl11992)
 
 ___
-## About Me
+## Summary
 Communicative and diligent. I do not accept a superficial approach to work. I try to work for the future, constantly developing professionally.
 
 ___
@@ -21,7 +21,7 @@ ___
 - JavaScript (Basic)
 
 ___
-## Code Example
+## Code
 This code does not execute properly. Try to figure out why.
 ```
 function multiply(a, b) {
