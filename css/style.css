@@ -20,29 +20,22 @@ html {
 body {
     max-width: 1440px;
     margin: 0 auto;
-    font-family: 'georgia-bolt';
-    font-weight: 300;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.header {
-    border: 20px solid red;
+    background: #000;
 }
 
 .main {
-    border: 20px solid gold;
+    border: 1px solid black;
 }
 
 .footer {
-    border: 20px solid black;
+    border: 1px solid black;
 }
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
 }
 
 .nav-list {
@@ -52,19 +45,33 @@ body {
     list-style: none;
 }
 .nav-link {
+    text-decoration: none;  
     padding: 0 20px;
+    color: #fff;
+    font-family: 'arial-bolt';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 50px;
-    transition: 3s;
-
-
 }
 
-.section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  
-.section-item a:hover {
-    color: #4d2323;
- }
+.nav-link:hover, .nav-link:focus {
+    opacity: 0.65;
+    transition: 1s;
+}
+
+.section-profile-logo {
+    width: 300px;
+    border-radius: 5%;
+    filter: grayscale();
+}
+
+.section-title-name, .section-title-profession {
+    color: #fff;
+    font-family: 'arial-bolt';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 50px;
+    opacity: 1;
+}
