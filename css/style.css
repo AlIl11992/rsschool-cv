@@ -73,5 +73,27 @@ body {
     font-style: normal;
     font-weight: 100;
     line-height: 50px;
-    opacity: 1;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    color: #fff;
+    font-family: 'arial-bolt';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.section-item {
+    color: #fff;
+    font-family: 'arial-bolt';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 50px; 
 }
